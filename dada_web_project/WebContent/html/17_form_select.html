@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Form_select</title>
+</head>
+<body>
+	<h1>Form - select</h1>
+	<h3>연락처를 선택해주세요</h3>
+	<form action = "#" method = "get"> <!-- # : 주소미정 -->
+		<select name = "tel">
+			<option value = "default">선택해주세요</option>
+			<option value = "skt">SKT</option> <!-- value : SKT를 선택하고 서버에 넘길때 SKT가 아닌 value값인 skt를 넘기는 방법 -->
+			<option value = "lgt">LGT</option>
+			<option value = "kt">KT</option>
+		</select>
+		<input type = "text" name = "phone1">-
+		<input type = "text" name = "phone2">-
+		<input type = "text" name = "phone3">
+		<button type = "submit">서버전송</button> <!-- 서버로 넘어갈땐 다 무조건 String타입 -->
+	</form>
+</body>
+</html>

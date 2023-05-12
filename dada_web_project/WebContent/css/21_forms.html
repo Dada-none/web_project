@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>CSS -Forms</title>
+	<style>
+		ul {
+			list-style-type: none;
+			border: 1px solid red;
+			margin: 0px;
+			padding: 0px;
+			width: 70%;
+		}
+		label {
+			border: 1px solid tomato;
+			display: inline-block;
+			width: 100px;
+			padding: 5px 0px;
+			text-align: center;
+			font-size: 12px;
+			background: tomato;
+			color: white;
+			border-radius: 4px;
+			margin-right: 5px;
+		}
+		input {
+			border: 1px solid darkgray;
+			width: 50%;
+			padding: 5px 5px;
+			border-radius: 4px;
+			text-indent: 10px;
+			outline: none;
+			/* vertical-align: top; */
+		}
+		input:focus {
+			border: 4px solid yellowgreen;
+		}
+		li {
+			margin: 10px 0px;
+			text-align: center; /*inline이라서 가운데로 모이는거 가능*/
+		}
+		li:first-child, li:last-child {
+			/* border: 1px solid blue; */
+			margin-top: 20px; 
+		}
+		li:last-child {
+			padding-left: 10px;
+		}
+		button {
+			width: 100px;
+			padding: 4px;
+			font-size: 12px;
+			background: mediumseagreen;
+			color: white;
+			border: 1px solid mediumseagreen;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<h1>Login Form</h1>
+	<form name = "loginForm" action = "#" method = "get">
+		<ul>
+			<li>
+				<label>ID</label>
+				<input type = "text" name = "id">
+			</li>
+			<li>
+				<label>Password</label>
+				<input type = "password" name = "pass">
+			</li>
+			<li>
+				<button type = "button">Login</button>
+				<button type = "reset">Cancel</button>
+			</li>
+		</ul>
+	</form>
+</body>
+</html>

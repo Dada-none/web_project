@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>CSS - Width/Height</title>
+	<style>
+		p {
+			background: mediumseagreen; /*body내에 p영역에 글자가 있어야 백그라운드가 표현됨*/
+		}
+		.p1 { width: 70%;}
+		header {
+			width: 800px;
+			border: 2px solid red;
+		}
+		.p2 { width: 50%;}
+		.p3 { width: 300px;}
+		div {
+			background: tomato;
+			width: 100%; /*블럭레벨 애들은 내용이 없어도 width, height잡아주면 표현됨*/
+			height: 20px;
+			margin: 10px;
+		}
+	</style>
+</head>
+<body>
+	<p class = "p1">p1</p>
+	<header>
+		<p class = "p2">p2</p>
+	</header>
+	<p class = "p3">p3</p>
+	<hr>
+	<div></div> 
+	<div></div>
+	<div></div>
+</body>
+</html>

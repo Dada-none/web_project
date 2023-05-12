@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>CSS - Text Alignment</title>
+	<style>
+	h1, div {
+		border: 1px solid red;
+		text-align: center;
+	}
+	span { border: 1px solid blue;}
+	h3 { background: green;}
+	.d1 {
+		border:3px solid red;
+		width: 300px;
+		text-align: justify;
+		padding: 15px;
+		text-indent: 30px;
+	}
+	img {
+		vertical-align: super;
+	}
+	h1 {
+		/* text-decoration-line: overline underline;
+		text-decoration-color: tomato;
+		text-decoration-style: wavy; */
+		text-decoration: overline underline tomato wavy 3px;
+		letter-spacing: -9px;
+	}
+	</style>
+</head>
+<body>
+	<h1>Text Alignment</h1>
+	<div>
+		<span>Text Alignment</span> <!-- 대표적인 인라인 태그 : 인라인 속성 애들은 text-align 적용 안됨 -->
+		<p><img src="h1_cgv.png" width = "50px" height = "50px"> CGV Logo</p>
+		<h3>h3 element</h3>
+	</div>
+	<div class = "d1">
+	In her essay, Woolf uses metaphors to explore social 
+	injustices and comments on women's lack of free expression. 
+	Her metaphor of a fish explains her most essential point, 
+	"A woman must have money and a room of her own if she is 
+	to write fiction". She writes of a woman whose thought had 
+	"let its line down into the stream". As the woman starts 
+	to think of an idea, a guard enforces a rule whereby women 
+	are not allowed to walk on the grass. Abiding by the rule, 
+	the woman loses her idea. Here, Woolf describes the influence 
+	of women's social expectations as mere domestic child bearers, 
+	ignorant and chaste.
+	</div>
+</body>
+</html>

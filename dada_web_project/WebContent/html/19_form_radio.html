@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Form - Radio</title>
+</head>
+<body>
+	<h1>From - Radio button</h1>
+	<h3>좋아하는 과목을 선택해주세요</h3>
+	<form action = "#" method = "get">
+		<input type = "radio" name = "subject1" value = "java" checked>JAVA <!-- checked : 디폴트로 체크해놓는거 -->
+		<input type = "radio" name = "subject2" value = "oracle">ORACLE <!-- 하나만 선택하게 하려면 name을 하나로 통일 -->
+		<input type = "radio" name = "subject3" value = "html">HTML <!-- 서버로 넘길때 on은 선택됐다는 의미 -->
+		<input type = "radio" name = "subject4" value = "css">CSS <!-- inline Label로 표현됨 -->
+		<button type = "submit">서버전송</button>
+	</form>
+</body>
+</html>

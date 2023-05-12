@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Form - file, hidden</title>
+</head>
+<body>
+	<h1>Form-file, hidden</h1>
+	<form action="#" method = "get">
+		<input type = "hidden" name = "pid" value = "t1234"> <!-- form안에만 있으면 가능! -->
+		<!-- http://localhost:9900/dada_web_project/html/22_form_file_hidden.html?pid=t1234&file1=# -->
+		<ul>
+			<li>
+				<!-- <label>파일선택</label> -->
+				<input type = "file" name = "file1"> 
+				<!-- html은 선택한 파일을 업로드/샌딩 할 수는 없어->그건 서버에서 하는 일. 그냥 모양만 만들어서 확인하는 형태 -->
+			</li>
+			<li>
+				<button type = "submit">서버전송</button>
+				<!-- 실제로 전송된거 아니야 -->
+			</li>
+		</ul>
+	</form>
+</body>
+</html>
+
